@@ -5,7 +5,12 @@ import { MdDelete, MdAttachMoney, MdCloudUpload } from "react-icons/md";
 
 import { categories, frameColors, frameDimension } from "../utils/data";
 import Lottie from "lottie-react";
-import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
+import {
+  deleteObject,
+  getDownloadURL,
+  ref,
+  uploadBytesResumable,
+} from "firebase/storage";
 import { storage } from "../firebase.config";
 import { useStateValue } from "../context/StateProvider";
 import { getAllFrames, saveItem } from "../utils/firebaseFunctions";
