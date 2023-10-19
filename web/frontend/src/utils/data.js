@@ -40,22 +40,35 @@ export const categories = [
 export const frameColors = [
   {
     id: 1,
-    color: "black",
+    color: "Black",
     urlParamName: "black",
   },
   {
     id: 2,
-    color: "pink",
+    color: "Pink",
     urlParamName: "pink",
   },
   {
     id: 3,
-    color: "red",
+    color: "Red",
     urlParamName: "red",
   },
   {
     id: 4,
-    color: "blue",
+    color: "Blue",
     urlParamName: "blue",
   },
 ];
+
+export const frameDimension = [
+  {
+    id: 1,
+    dimension: "Vertical",
+    urlParamName: "vertical"
+  },
+  {
+    id: 2,
+    dimension: "Horizontal",
+    urlParamName: "horizontal"
+  },
+]
